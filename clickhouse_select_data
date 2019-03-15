@@ -1,0 +1,27 @@
+instance-1.europe-west1-b.c.animated-cell-233007.internal :) select * from sergey_kataev LIMIT 5
+SELECT *
+FROM sergey_kataev 
+LIMIT 5
+┌───────────timestamp─┬─referer───────────────────────────────────────────────────────────────┬─location──────────────────────────┬─partyId─────────────────────────
+────────────┬─sessionId───────────────────────────────────┬─eventType─────┬─item_id────────────────────────────────────────┬─item_price─┬─item_url──────────────────
+─────────────────────────────────────────┬─basket_price─┬─detectedDuplicate─┬─detectedCorruption─┬─firstInSession─┬─userAgentName──────┐
+│ 2019-03-15 17:33:06 │ https://b24-d2wt09.bitrix24.shop/katalog/item/women-s-t-shirt-purity/ │ https://b24-d2wt09.bitrix24.shop/ │ 0:jmz8xo3z:BvkQdVYMXSAUTS42oNOW8
+Yg7kSdkkdHl │ 0:jnubc8jm:RzrrZBYYPdIxEWlxp9N9F8Jp6wtr34iM │ itemViewEvent │ bx_40480796_7_52eccb44ded0bb34f72b273e9a62ef02 │      11085 │ https://b24-d2wt09.bitrix2
+4.shop/katalog/item/t-shirt-mens-purity/ │            0 │                 0 │                  0 │              1 │ TEST_UserAgentName │
+│ 2019-03-15 17:33:06 │ https://b24-d2wt09.bitrix24.shop/katalog/item/dress-spring-ease/      │ https://b24-d2wt09.bitrix24.shop/ │ 0:jmz8xo3z:BvkQdVYMXSAUTS42oNOW8
+Yg7kSdkkdHl │ 0:jnvbxoc9:yREvvIgI5Da2_4XFjE1Q6E90j_iAb8n4 │ itemViewEvent │ bx_40480796_7_52eccb44ded0bb34f72b273e9a62ef02 │      12205 │ https://b24-d2wt09.bitrix2
+4.shop/katalog/item/t-shirt-mens-purity/ │            0 │                 0 │                  0 │              1 │ TEST_UserAgentName │
+│ 2019-03-15 17:33:06 │ https://b24-d2wt09.bitrix24.shop/katalog/clothes/shoes/               │ https://b24-d2wt09.bitrix24.shop/ │ 0:jmz8xo3z:BvkQdVYMXSAUTS42oNOW8
+Yg7kSdkkdHl │ 0:jnvbxoc9:yREvvIgI5Da2_4XFjE1Q6E90j_iAb8n4 │ itemViewEvent │ bx_40480796_7_52eccb44ded0bb34f72b273e9a62ef02 │       1905 │ https://b24-d2wt09.bitrix2
+4.shop/katalog/item/t-shirt-mens-purity/ │            0 │                 0 │                  0 │              1 │ TEST_UserAgentName │
+│ 2019-03-15 17:33:06 │ https://b24-d2wt09.bitrix24.shop/katalog/item/slippers-pink-paradise/ │ https://b24-d2wt09.bitrix24.shop/ │ 0:jmz8xo3z:BvkQdVYMXSAUTS42oNOW8
+Yg7kSdkkdHl │ 0:jnubc8jm:RzrrZBYYPdIxEWlxp9N9F8Jp6wtr34iM │ itemViewEvent │ bx_40480796_7_52eccb44ded0bb34f72b273e9a62ef02 │       5746 │ https://b24-d2wt09.bitrix2
+4.shop/katalog/item/t-shirt-mens-purity/ │            0 │                 0 │                  0 │              1 │ TEST_UserAgentName │
+│ 2019-03-15 17:33:06 │ https://b24-d2wt09.bitrix24.shop/katalog/item/women-s-t-shirt-purity/ │ https://b24-d2wt09.bitrix24.shop/ │ 0:jmz8xo3z:BvkQdVYMXSAUTS42oNOW8
+Yg7kSdkkdHl │ 0:jnubc8jm:RzrrZBYYPdIxEWlxp9N9F8Jp6wtr34iM │ itemViewEvent │ bx_40480796_7_52eccb44ded0bb34f72b273e9a62ef02 │       4419 │ https://b24-d2wt09.bitrix2
+4.shop/katalog/item/t-shirt-mens-purity/ │            0 │                 0 │                  0 │              1 │ TEST_UserAgentName │
+└─────────────────────┴───────────────────────────────────────────────────────────────────────┴───────────────────────────────────┴─────────────────────────────────
+────────────┴─────────────────────────────────────────────┴───────────────┴────────────────────────────────────────────────┴────────────┴───────────────────────────
+─────────────────────────────────────────┴──────────────┴───────────────────┴────────────────────┴────────────────┴────────────────────┘
+5 rows in set. Elapsed: 0.008 sec. 
+instance-1.europe-west1-b.c.animated-cell-233007.internal :) 
