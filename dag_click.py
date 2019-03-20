@@ -52,8 +52,8 @@ def put_to_click(**context):
             elif val == "item_price" and type(d[val])!=float:
                 d[val]=float(d[val])
         d=[d]
-        client.execute('INSERT INTO default.sergey_kataev VALUES',d)
-        a = client.execute('SELECT * FROM default.sergey_kataev')
+        client.execute('INSERT INTO default.sergey_kataev_local VALUES',d)
+        a = client.execute('SELECT * FROM default.sergey_kataev_local')
 
     return(el)
 
