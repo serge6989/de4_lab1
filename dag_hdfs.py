@@ -12,5 +12,5 @@ dag = DAG('Route_to_HDFS', description='no_desc',
           start_date=datetime(2017, 3, 20), catchup=False)
 
 b1 = BashOperator(task_id='put_data_to_hdfs',
-                  bash_command='hdfs dfs -put /etc/airflow/airflow_home/temp/2019-03-15_elastic.file /opt/lab1',
+                  bash_command='hdfs dfs -put /etc/airflow/airflow_home/temp/$(date +%Y-%m-%d)_elastic.file /opt/lab1',
                   dag=dag)
