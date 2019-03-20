@@ -1,0 +1,40 @@
+<remote_servers>
+    <perftest_1shards_3replicas>
+        <shard>
+            <replica>
+                <host>instance-1.europe-west1-b.c.animated-cell-233007.internal</host>
+                <port>9000</port>
+            </replica>
+            <replica>
+                <host>instance-2.europe-west1-b.c.animated-cell-233007.internal</host>
+                <port>9000</port>
+            </replica>
+            <replica>
+                <host>instance-3.europe-west2-b.c.animated-cell-233007.internal</host>
+                <port>9000</port>
+            </replica>
+        </shard>
+    </perftest_1shards_3replicas>
+</remote_servers>
+
+<zookeeper-servers>
+    <node>
+        <host>instance-1.europe-west1-b.c.animated-cell-233007.internal</host>
+        <port>2181</port>
+    </node>
+    <node>
+        <host>instance-2.europe-west1-b.c.animated-cell-233007.internal</host>
+        <port>2181</port>
+    </node>
+    <node>
+        <host>instance-3.europe-west2-b.c.animated-cell-233007.internal</host>
+        <port>2181</port>
+    </node>
+</zookeeper-servers>
+
+<macros>
+    <shard>01</shard>
+    <replica>01</replica>
+</macros>
+
+CREATE TABLE sergey_kataev AS sergey_kataev_local ENGINE = Distributed(perftest_1shards_3replicas, default, sergey_kataev_local, rand());
